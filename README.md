@@ -1,32 +1,6 @@
- <img align="left" width="116" height="116" src="https://raw.githubusercontent.com/jasontaylordev/CleanArchitecture/main/.github/icon.png" />
+ 
  
  # Clean Architecture Solution Template
-[![Build](https://github.com/jasontaylordev/CleanArchitecture/actions/workflows/dotnet-build.yml/badge.svg)](https://github.com/jasontaylordev/CleanArchitecture/actions/workflows/dotnet-build.yml)
-[![CodeQL](https://github.com/jasontaylordev/CleanArchitecture/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jasontaylordev/CleanArchitecture/actions/workflows/codeql-analysis.yml)
-[![Nuget](https://img.shields.io/nuget/v/Clean.Architecture.Solution.Template?label=NuGet)](https://www.nuget.org/packages/Clean.Architecture.Solution.Template)
-[![Nuget](https://img.shields.io/nuget/dt/Clean.Architecture.Solution.Template?label=Downloads)](https://www.nuget.org/packages/Clean.Architecture.Solution.Template)
-[![Discord](https://img.shields.io/discord/893301913662148658?label=Discord)](https://discord.gg/p9YtBjfgGe)
-![Twitter Follow](https://img.shields.io/twitter/follow/jasontaylordev?label=Follow&style=social)
-
-
-<br/>
-
-This is a solution template for creating a Single Page App (SPA) with Angular and ASP.NET Core following the principles of Clean Architecture. Create a new project based on this template by clicking the above **Use this template** button or by installing and running the associated NuGet package (see Getting Started for full details). 
-
-## Learn about Clean Architecture
-
-[![Clean Architecture with ASP.NET Core 3.0 • Jason Taylor • GOTO 2019](https://img.youtube.com/vi/dK4Yb6-LxAk/0.jpg)](https://www.youtube.com/watch?v=dK4Yb6-LxAk)
-
-## Technologies
-
-* [ASP.NET Core 7](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
-* [Entity Framework Core 7](https://docs.microsoft.com/en-us/ef/core/)
-* [Angular 14](https://angular.io/)
-* [MediatR](https://github.com/jbogard/MediatR)
-* [AutoMapper](https://automapper.org/)
-* [FluentValidation](https://fluentvalidation.net/)
-* [NUnit](https://nunit.org/), [FluentAssertions](https://fluentassertions.com/), [Moq](https://github.com/moq) & [Respawn](https://github.com/jbogard/Respawn)
-
 ## Getting Started
 
 The easiest way to get started is to install the [NuGet package](https://www.nuget.org/packages/Clean.Architecture.Solution.Template) and run `dotnet new ca-sln`:
@@ -38,7 +12,6 @@ The easiest way to get started is to install the [NuGet package](https://www.nug
 5. Run `dotnet new ca-sln` to create a new project
 6. Navigate to `src/WebUI` and launch the project using `dotnet run`
 
-Check out my [blog post](https://jasontaylor.dev/clean-architecture-getting-started/) for more information.
 
 ### Database Configuration
 
@@ -87,8 +60,5 @@ This layer is a single page application based on Angular 14 and ASP.NET Core 7. 
 
 ## Support
 
-If you are having problems, please let us know by [raising a new issue](https://github.com/jasontaylordev/CleanArchitecture/issues/new/choose).
 
 ## License
-
-This project is licensed with the [MIT license](LICENSE).
